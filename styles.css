@@ -49,3 +49,18 @@ body {
   align-items: center;
   justify-content: center;
 }
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img {
+  width: 25%;
+  max-width: 175px;
+  margin-right: 10px;
+}
