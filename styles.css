@@ -58,9 +58,21 @@ body {
   display: flex;
   align-items: center;
   text-align: left;
+  margin-top: 30px;
 }
 .col img {
   width: 25%;
   max-width: 175px;
   margin-right: 10px;
+}
+.container {
+  display: none;
+}
+.invalid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  color: black;
+  display: none;
 }
